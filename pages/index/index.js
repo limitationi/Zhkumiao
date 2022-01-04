@@ -19,6 +19,7 @@ data: {
     url: app.globalData.url,
     imgList: [
       "https://l2rainbow.top/miao/1.jpg",
+     
     ]
   },
   preview(event) {
