@@ -1,0 +1,43 @@
+<!--index.wxml-->
+
+<view class= "title">欢迎大家加入仲恺喵星会Meow
+</view>
+<view class= "body"><text >截图保存二维码扫描进行捐赠</text>
+</view>
+<!-- 去掉跳转 -->
+<!-- <navigator url="/pages/about/web/web"> -->
+<view style="display:flex; justify-content:center; align-items:center;">
+  
+  <image mode="widthFix" src="/pages/images/money.jpg" style= "width: 93%;">
+ 
+  </image>
+  
+</view>
+<!-- </navigator> -->
+
+<text> \n </text>
+
+<!-- 最好能保留这一行 -->
+<!-- <view class="body">此小程序所有代码开源，可在 GitHub 上搜索「北大猫协」，配有教学视频，简单易用。 </view>
+
+
+<text> \n </text>
+
+<view class="staff">2020-08-16</view> -->
+
+<view class="staff">
+<text>小程序开发：circle
+猫咪资料：仲恺喵星会Meow</text>
+
+</view>
+
+<!-- <view  class = "itemname1">
+  <view bindtap="naviToMini" style='flex-shrink:0; box-sizing:border-box; width:3rem; margin-right:1rem;'>
+    <image style="width:3rem;height:3rem;" src="/pages/images/circle.png" ></image>
+    <view style="text-align: center;  color:#353535;" > \n 高校动保索引 </view>  
+  </view>
+</view> -->
+
+
+<text> \n </text>
+
