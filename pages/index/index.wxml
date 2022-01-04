@@ -95,8 +95,10 @@ PS：流浪猫绝育后都会剪耳做标记，判断流浪猫性别可以看剪
 <view class = "body">
 喂猫可以在黄圈与紫色标记地点，下午六到七点猫猫出没最多哦～
 尽量喂食猫粮与冻干罐头一类，减少猫条等含诱食剂添加剂的零食，容易导致流浪猫挑食，不利于它们的生存哦
-<image bindtap="preview" data-src="{{imgList[0]}}" class="imgwith" src="/pages/images/1.jpg" mode="widthFix"></image>
+
 </view>
+
+<view class="body"><image style="width: 100%;" bindtap="preview" data-src="{{imgList[0]}}" class="imgwith" src="/pages/images/1.jpg" mode="widthFix"></image></view>
 <text> \n </text>
 </view>
 

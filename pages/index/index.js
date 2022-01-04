@@ -2,6 +2,8 @@ var app = getApp()
  Page({
 data: { 
  fostered_catlist: [
+{ name:"黄仔"},
+{ name:"呼呼"},
 ],
  unknown_catlist: [
 { name:"圆圆"},
@@ -17,11 +19,10 @@ data: {
     url: app.globalData.url,
     imgList: [
       "https://l2rainbow.top/miao/1.jpg",
- 
     ]
   },
   preview(event) {
-
+    console.log(event.currentTarget.dataset.src)
     let currentUrl = event.currentTarget.dataset.src
     wx.previewImage({
       current: currentUrl, // 当前显示图片的http链接

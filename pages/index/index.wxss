@@ -32,7 +32,5 @@ page{
 .placeholder {
   color: #888888;
   caret-color: #94070a;
-}
-.imgwith{
-  width: 100%;
+  font-size:small
 }
