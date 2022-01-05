@@ -63,7 +63,7 @@ labels = [
     [14, '性格', lambda x: '亲人可抱' if x == 6 else '亲人不可抱 可摸' if x == 5 else '薛定谔亲人' if x == 4 else '吃东西时可以一直摸' if x ==
         3 else '吃东西时可以摸一下' if x == 2 else '怕人 安全距离 1m 以内' if x == 1 else '怕人 安全距离 1m 以外' if x == 0 else '未知 数据缺失'],
     [15, '第一次目击', lambda x: str(x)],
-    [20, '送养时间', lambda x:str(x)],
+    [20, '送养时间', lambda x:str(x).format("yyyy-MM-dd")],
     [21, '离世时间', lambda x:x],
     [13, '外貌', lambda x:x],
     [18, '更多', lambda x:x],
