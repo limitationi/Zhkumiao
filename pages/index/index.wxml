@@ -17,7 +17,7 @@
 
 <text> \n </text>
 
-<navigator url="/pages/index/玳瑁及三花/玳瑁及三花" >
+<navigator url="/pages/index/Colorful/DaiMaoSanHua" >
   <view class="catitem">
     <image  class = 'avator ' src="{{url}}楼长.png" mode='aspectFill' ></image>
     <view class="cat-name">三花和玳瑁</view> 
@@ -26,7 +26,7 @@
 
 <view class="divLine"></view>
 
-<navigator url="/pages/index/橘猫及橘白/橘猫及橘白" >
+<navigator url="/pages/index/OrangeAndWhite/OaW" >
 
   <view class="catitem">
     <image  class = 'avator ' src="{{url}}大黄.png" mode='aspectFill' ></image>
@@ -36,7 +36,7 @@
 
 <view class="divLine"></view>
 
-<navigator url="/pages/index/纯色/纯色" >
+<navigator url="/pages/index/Pure/Pure" >
   <view class="catitem">
     <image  class = 'avator ' src="{{url}}小白.png" mode='aspectFill' ></image>
     <view class= "cat-name">纯色</view>
@@ -46,7 +46,7 @@
 
 <view class="divLine"></view>
 
-<navigator url="/pages/index/奶牛/奶牛" >
+<navigator url="/pages/index/NaiNiu/NaiNiu" >
   <view class="catitem">
     <image  class = 'avator ' src="{{url}}奶牛.png" mode='aspectFill' ></image>
     <view class= "cat-name">奶牛</view>
@@ -55,7 +55,7 @@
 
 <view class="divLine"></view>
 
-<navigator url="/pages/index/狸花/狸花" >
+<navigator url="/pages/index/LiHua/LiHua" >
   <view class="catitem">
     <image  class = 'avator ' src="{{url}}花花.png" mode='aspectFill' ></image>
     <view class= "cat-name">狸花</view>
@@ -64,7 +64,7 @@
 
 <view class="divLine"></view>
 
-<navigator url="/pages/index/所有/所有" >
+<navigator url="/pages/index/All/All" >
   <view class="catitem">
     <image  class = 'avator ' src="/pages/images/huihui.png" mode='aspectFill' ></image>
     <view class= "cat-name">所有</view>

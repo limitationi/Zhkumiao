@@ -18,8 +18,7 @@ data: {
     currentTab: 0,
     url: app.globalData.url,
     imgList: [ 
-      "https://l2rainbow.top/miao/1.jpg", 
-      
+      "/pages/images/1.jpg", 
     ] 
   }, 
   preview(event) { 

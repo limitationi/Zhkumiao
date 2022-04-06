@@ -16,7 +16,7 @@ page{
   color: #888888;
 }
 .navbar .item.active{
-  color: #94070a;
+  color: #1d9fd3;
 }
 .navbar .item.active:after{
   content: "";
@@ -26,11 +26,11 @@ page{
   left: 40rpx;
   right: 40rpx;
   height: 4rpx;
-  background: #94070a;
+  background: #1d9fd3;
 }
 
 .placeholder {
   color: #888888;
-  caret-color: #94070a;
+  caret-color: #1d9fd3;
   font-size:small
 }
