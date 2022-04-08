@@ -2,7 +2,7 @@ var app = getApp()
  Page({
 data: { 
  catlist: [
-{ name:"楼长"},{ name:"元宝"},{ name:"小艺"},{ name:"兔兔"},{ name:"猫妈"},{ name:"阿花"},
+{ name:"海珠-楼长"},{ name:"海珠-元宝"},{ name:"海珠-小艺"},{ name:"海珠-兔兔"},{ name:"海珠-猫妈"},{ name:"海珠-阿花"},{ name:"白云-小黑"},{ name:"白云-狗蛋"},{ name:"白云-三点半"},{ name:"白云-小豹子"},{ name:"白云-？"},
     ],
     screenWidth: 0,
     screenHeight: 0,
