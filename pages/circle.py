@@ -214,10 +214,10 @@ except:
 
 # 创建毛色分类的js文件
 # 奶牛
-if not os.path.exists('index/奶牛'):
-    os.makedirs('index/' + '奶牛')  # 创建每只猫的文件夹
+if not os.path.exists('index/NaiNiu'):
+    os.makedirs('index/' + 'NaiNiu')  # 创建每只猫的文件夹
     # 创建js文件
-with open('index/奶牛/奶牛' + '.js', 'w', encoding='utf-8') as f:
+with open('index/NaiNiu/NaiNiu' + '.js', 'w', encoding='utf-8') as f:
     f.write('var app = getApp()\n Page({\ndata: { \n catlist: [\n')
     for name in nainiu:
         f.write('{ name:"'+name+'"},')
@@ -225,10 +225,10 @@ with open('index/奶牛/奶牛' + '.js', 'w', encoding='utf-8') as f:
         f.write(f2.read())
 
 # 狸花
-if not os.path.exists('index/狸花'):
-    os.makedirs('index/' + '狸花')  # 创建每只猫的文件夹
+if not os.path.exists('index/LiHua'):
+    os.makedirs('index/' + 'LiHua')  # 创建每只猫的文件夹
     # 创建js文件
-with open('index/狸花/狸花' + '.js', 'w', encoding='utf-8') as f:
+with open('index/LiHua/LiHua' + '.js', 'w', encoding='utf-8') as f:
     f.write('var app = getApp()\n Page({\ndata: { \n catlist: [\n')
     for name in lihua:
         f.write('{ name:"'+name+'"},')
@@ -236,10 +236,10 @@ with open('index/狸花/狸花' + '.js', 'w', encoding='utf-8') as f:
         f.write(f2.read())
 
 # 玳瑁及三花
-if not os.path.exists('index/玳瑁及三花'):
-    os.makedirs('index/' + '玳瑁及三花')  # 创建每只猫的文件夹
+if not os.path.exists('index/Colorful'):
+    os.makedirs('index/' + 'Colorful')  # 创建每只猫的文件夹
     # 创建js文件
-with open('index/玳瑁及三花/玳瑁及三花' + '.js', 'w', encoding='utf-8') as f:
+with open('index/Colorful/DaiMaoSanHua' + '.js', 'w', encoding='utf-8') as f:
     f.write('var app = getApp()\n Page({\ndata: { \n catlist: [\n')
     for name in sanhua:
         f.write('{ name:"'+name+'"},')
@@ -247,10 +247,10 @@ with open('index/玳瑁及三花/玳瑁及三花' + '.js', 'w', encoding='utf-8'
         f.write(f2.read())
 
 # 纯色
-if not os.path.exists('index/纯色'):
-    os.makedirs('index/' + '纯色')  # 创建每只猫的文件夹
+if not os.path.exists('index/Pure'):
+    os.makedirs('index/' + 'Pure')  # 创建每只猫的文件夹
     # 创建js文件
-with open('index/纯色/纯色' + '.js', 'w', encoding='utf-8') as f:
+with open('index/Pure/Pure' + '.js', 'w', encoding='utf-8') as f:
     f.write('var app = getApp()\n Page({\ndata: { \n catlist: [\n')
     for name in chunse:
         f.write('{ name:"'+name+'"},')
@@ -258,10 +258,10 @@ with open('index/纯色/纯色' + '.js', 'w', encoding='utf-8') as f:
         f.write(f2.read())
 
 # 橘猫及橘白
-if not os.path.exists('index/橘猫及橘白'):
-    os.makedirs('index/' + '橘猫及橘白')  # 创建每只猫的文件夹
+if not os.path.exists('index/OrangeAndWhite'):
+    os.makedirs('index/' + 'OrangeAndWhite')  # 创建每只猫的文件夹
     # 创建js文件
-with open('index/橘猫及橘白/橘猫及橘白' + '.js', 'w', encoding='utf-8') as f:
+with open('index/OrangeAndWhite/OaW' + '.js', 'w', encoding='utf-8') as f:
     f.write('var app = getApp()\n Page({\ndata: { \n catlist: [\n')
     for name in ju:
         f.write('{ name:"'+name+'"},')
@@ -269,10 +269,10 @@ with open('index/橘猫及橘白/橘猫及橘白' + '.js', 'w', encoding='utf-8'
         f.write(f2.read())
 
 # 所有
-if not os.path.exists('index/所有'):
-    os.makedirs('index/' + '所有')  # 创建每只猫的文件夹
+if not os.path.exists('index/All'):
+    os.makedirs('index/' + 'All')  # 创建每只猫的文件夹
     # 创建js文件
-with open('index/所有/所有' + '.js', 'w', encoding='utf-8') as f:
+with open('index/All/All' + '.js', 'w', encoding='utf-8') as f:
     f.write('var app = getApp()\n Page({\ndata: { \n catlist: [\n')
     for name in suoyou:
         f.write('{ name:"'+name+'"},')
