@@ -11,6 +11,7 @@ data: {
 { name:"白云-咪咪"},
 ],
  dead_catlist: [
+{ name:"海珠-拎拎"},
 ],
     screenWidth: 0,
     screenHeight: 0,
@@ -19,27 +20,11 @@ data: {
     navbar: ['在校', '毕业', '休学', '喵星'],
     currentTab: 0,
     url: app.globalData.url,
-    
-    // 单击放大预览
-    imgList: [
-      "https://l2rainbow.top/miao/1.jpg",    
-    ]
-  },
-
-  //预览图片，放大预览
-  preview(event) {
-    console.log(event.currentTarget.dataset.src)
-    let currentUrl = event.currentTarget.dataset.src
-    wx.previewImage({
-      current: currentUrl, // 当前显示图片的http链接
-      urls: this.data.imgList // 需要预览的图片http链接列表
-    })
   },
   navbarTap: function (e) {
     this.setData({
       currentTab: e.currentTarget.dataset.idx
     })
-    
   },
 
   iconType: [
