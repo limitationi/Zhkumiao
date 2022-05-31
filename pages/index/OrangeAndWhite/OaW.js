@@ -2,7 +2,7 @@ var app = getApp()
  Page({
 data: { 
  catlist: [
-{ name:"海珠-圈圈"},{ name:"海珠-大黄"},{ name:"海珠-小橘"},{ name:"海珠-大长腿"},{ name:"海珠-仙女"},{ name:"海珠-南区大黄"},{ name:"海珠-大橘"},{ name:"海珠-？"},{ name:"海珠-咕噜"},{ name:"白云-月白"},{ name:"白云-大兔"},{ name:"白云-小兔"},{ name:"白云-团团"},{ name:"白云-？（大家都叫橘猫）"},
+{ name:"海珠-圈圈"},{ name:"海珠-大黄"},{ name:"海珠-小橘"},{ name:"海珠-大长腿"},{ name:"海珠-仙女"},{ name:"海珠-南区大黄"},{ name:"海珠-大橘"},{ name:"海珠-？"},{ name:"海珠-咕噜"},{ name:"白云-大兔"},{ name:"白云-小兔"},{ name:"白云-团团"},{ name:"白云-恶霸"},
     ],
     screenWidth: 0,
     screenHeight: 0,

@@ -4,13 +4,16 @@ data: {
  fostered_catlist: [
 { name:"海珠-黄仔"},
 { name:"海珠-呼呼"},
+{ name:"白云-月白"},
 ],
  unknown_catlist: [
 { name:"海珠-圆圆"},
-{ name:"白云-丑猫"},
+{ name:"白云-黄黄"},
+{ name:"白云-黑猪"},
 { name:"白云-咪咪"},
 ],
  dead_catlist: [
+{ name:"白云-两点"},
 { name:"海珠-拎拎"},
 ],
     screenWidth: 0,
