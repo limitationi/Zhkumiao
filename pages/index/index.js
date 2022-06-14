@@ -5,6 +5,9 @@ data: {
 { name:"海珠-黄仔"},
 { name:"海珠-呼呼"},
 { name:"白云-月白"},
+{ name:"海珠-烫脚"},
+{ name:"海珠-主公"},
+{ name:"海珠-元宝"},
 ],
  unknown_catlist: [
 { name:"海珠-圆圆"},
